@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <!-- Screen Design for the SONGS -->
+
+    <TextView
+        android:id="@+id/txt_total_memory"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:textSize="18dip" />
+
+    <TextView
+        android:id="@+id/txt_free_memory"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:textSize="18dip" />
+
+    <TextView
+        android:id="@+id/txt_used_memory"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:textSize="18dip" />
+
+</LinearLayout>
